@@ -4,6 +4,9 @@ Use aliases to resolve imports. Similar to webpack's [resolve-alias](https://web
 
 Inspired by [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
 
+**!important!**
+Affects only `import` statements, not `require` calls.
+
 ## Why does this matter?
 Webpack has convenient feature [resolve-alias](https://webpack.github.io/docs/configuration.html#resolve-alias). You can avoid the double dots in your import declarations `animals/Cat` instead of `../../../animals/Cat`.
 
