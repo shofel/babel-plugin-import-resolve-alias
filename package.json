@@ -1,0 +1,12 @@
+{
+  "name": "babel-plugin-import-resolve-alias",
+  "version": "0.0.1",
+  "description": "Use aliases to resolve imports. Similar to webpack's resolve-alias. But not the same",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:shofel/babel-plugin-import-resolve-alias.git",
+    "type": "git"
+  },
+  "author": "shofel <v.istomin@examus.net>",
+  "license": "MIT"
+}
