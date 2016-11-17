@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard",
+    "plugin:flowtype/recommended"
+  ],
+  "env": {
+    "node": true
+  },
+  "plugins": [
+    "flowtype"
+  ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
