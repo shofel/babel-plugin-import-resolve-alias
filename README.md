@@ -39,8 +39,8 @@ You can just set up the aliases in the plugin setting in `.babelrc` and they'll 
 
 ### What to expect
 Let us having the config from the previous section and project root is `/home/fred/proj/`.
-- `import brilliant-lib/xyz` becomes `import home/fred/proj/app/lib/xyz`
-- `import brilliant-lib/xyz` becomes `import home/fred/proj/app/lib/xyz`
+- `import brilliant-lib/xyz` becomes `import /home/fred/proj/app/lib/xyz`
+- `import brilliant-lib/xyz` becomes `import /home/fred/proj/app/lib/xyz`
 - `import one` becomes `import another`
 
 Generally [the table](https://webpack.github.io/docs/configuration.html#resolve-alias) from webpack documentation is the reference.
